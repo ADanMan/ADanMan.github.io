@@ -108,7 +108,8 @@ footer a:hover{background:var(--pink);color:#fff}
 }
 
 /* --- personal resume additions --- */
-.hero{border:var(--border);background:var(--pink);color:#fff;box-shadow:var(--shadow);padding:1.6rem 1.8rem;margin-bottom:2rem}
+.hero{border:var(--border);background:var(--pink);color:var(--ink);box-shadow:var(--shadow);padding:1.6rem 1.8rem;margin-bottom:2rem}
+.hero h1{color:#fff;text-shadow:3px 3px 0 var(--ink)}
 .hero h1{font-family:var(--font-d);font-size:clamp(1.8rem,5vw,2.8rem);letter-spacing:-.03em;margin:.2rem 0}
 .hero .role{font-family:var(--font-d);font-weight:700;font-size:1.1rem}
 .hero p{max-width:44rem}
