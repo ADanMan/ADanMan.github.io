@@ -1,0 +1,11 @@
+# Danila Katalshov — personal site
+
+> Senior AI Engineer @ beeline cloud (agentic-workplace platform), ex-Tech Lead @ MWS AI.
+> Teaches generative-AI architectures (HSE, MEPhI, SFedU). Author of the AVI guardrail
+> framework (2 MDPI papers). Builds openly automated publications.
+
+- Resume (RU/EN, single page): https://adanman.github.io/
+- Publications index (posts/TIL/guides from agentic-frontier): https://adanman.github.io/publications.html
+- Raw markdown of publications: https://raw.githubusercontent.com/ADanMan/agentic-frontier/main/<posts|til|guides>/<date>/<NN-slug>/index.md
+- The automated news wire he publishes: https://adanman.github.io/frontier-wire/ (agents: see its /llms.txt)
+- Contact: t.me/adanman · linkedin.com/in/danilakatalshov · github.com/ADanMan
