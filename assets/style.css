@@ -129,3 +129,8 @@ footer a:hover{background:var(--pink);color:#fff}
 .pub-list{list-style:none;padding:0}
 .pub-list li{border:var(--border);background:var(--paper);box-shadow:var(--shadow-sm);padding:.7rem 1rem;margin-bottom:.8rem}
 .pub-date{font-family:var(--font-d);font-weight:700;font-size:.85rem;color:var(--pink)}
+
+/* v4 typography */
+h1,h2,h3,.card h3{text-wrap:balance}
+.prose,.exp-card{hyphens:auto;-webkit-hyphens:auto}
+.dek{text-wrap:pretty}
