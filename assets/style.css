@@ -1,6 +1,6 @@
 /* frontier-wire — neubrutalist newspaper. yellow / pink / black. */
 :root{
-  --bg:#FDFDFB; --ink:#0E0E0E; --yellow:#FFE500; --pink:#FF2E88;
+  --bg:#FAF8F9; --ink:#191216; --yellow:#FFD900; --pink:#F0257F;
   --paper:#FFFFFF; --border:3px solid var(--ink);
   --shadow:6px 6px 0 var(--ink); --shadow-sm:4px 4px 0 var(--ink);
   --font-d:'Space Grotesk',system-ui,sans-serif;
@@ -9,7 +9,7 @@
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
 body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font-b);line-height:1.6;
-  background-image:radial-gradient(rgba(14,14,14,.18) 1px,transparent 1px);background-size:22px 22px;background-attachment:fixed}
+  background-image:radial-gradient(rgba(240,37,127,.14) 1px,transparent 1px);background-size:22px 22px;background-attachment:fixed}
 a{color:var(--ink);text-decoration-thickness:2px;text-underline-offset:3px}
 a:hover{background:var(--yellow)}
 img{max-width:100%}
@@ -25,7 +25,7 @@ body:not(.en) .lang-en{display:none!important}
 .brand{font-family:var(--font-d);font-weight:700;font-size:clamp(1.3rem,3.5vw,1.9rem);
   letter-spacing:-.03em;text-decoration:none;background:none;color:var(--yellow)}
 .brand span{color:var(--pink)}
-.logo{height:2.1em;vertical-align:middle;margin-right:.55rem}
+.logo{height:1.9em;vertical-align:middle;margin-right:.6rem;background:var(--paper);border:3px solid var(--paper);box-shadow:3px 3px 0 var(--pink)}
 .brand{display:flex;align-items:center}
 .brand:hover{background:none;color:var(--pink)}
 .masthead .nav-link{box-shadow:4px 4px 0 var(--pink)}
