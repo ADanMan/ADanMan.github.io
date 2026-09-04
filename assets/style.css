@@ -137,8 +137,8 @@ h1,h2,h3,.card h3{text-wrap:balance}
 
 /* hero photo */
 .hero{display:flex;flex-wrap:wrap;gap:1.6rem;align-items:flex-start}
-.hero-photo{flex:0 0 auto;width:clamp(140px,22vw,190px);aspect-ratio:1;object-fit:cover;
+.hero-photo{flex:0 0 auto;width:clamp(150px,20vw,260px);aspect-ratio:1;object-fit:cover;
   border:var(--border);box-shadow:6px 6px 0 var(--yellow);background:#fff}
-.hero-text{flex:1 1 20rem;min-width:0}
+.hero-text{flex:1 1 22rem;min-width:0;max-width:46rem}
 .hero-text .role{margin-top:0}
 .hero-text h1{margin:.3rem 0 .6rem}
