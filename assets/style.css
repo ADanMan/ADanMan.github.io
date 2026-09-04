@@ -134,3 +134,9 @@ footer a:hover{background:var(--pink);color:#fff}
 h1,h2,h3,.card h3{text-wrap:balance}
 .prose,.exp-card{hyphens:auto;-webkit-hyphens:auto}
 .dek{text-wrap:pretty}
+
+/* hero photo */
+.hero{display:grid;grid-template-columns:1fr;gap:1.2rem}
+@media(min-width:640px){.hero{grid-template-columns:150px 1fr;align-items:start}}
+.hero-photo{width:150px;height:150px;object-fit:cover;border:var(--border);
+  box-shadow:6px 6px 0 var(--yellow);background:#fff}
