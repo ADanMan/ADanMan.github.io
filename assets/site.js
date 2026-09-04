@@ -13,7 +13,8 @@
 
   var saved;
   try { saved = localStorage.getItem(KEY); } catch (e) { /* private mode */ }
-  apply(saved === 'en' ? 'en' : 'ru');
+  var auto = (navigator.language || 'ru').toLowerCase().indexOf('ru') === 0 ? 'ru' : 'en';
+  apply(saved === 'en' || saved === 'ru' ? saved : auto);
 
   if (btn) btn.addEventListener('click', function () {
     var next = body.classList.contains('en') ? 'ru' : 'en';
